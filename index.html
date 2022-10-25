@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+</head>
+<body>
+    <div class="container box mt-6">
+        <h1 class="title has-text-centered">Form Bien Piola</h1>
+        <form class="main-s6-form" id="form" action="https://formsubmit.co/6e328bfa16c883922bc4a8cdfcb8f9d8" method="POST">
+            <div class="field">
+                <label class="label" for="nombre">Nombre</label>
+                <input class="input" type="text" id="nombre" name="nombre" placeholder="Nombre" required>    
+
+                <label class="label" for="email">Email</label>
+                <input class="input" type="email" id="email" name="email" placeholder="ejemplo@ejemplo.com" required>
+
+                <label class="label" for="asunto">Asunto</label>
+                <input class="input" type="text" id="asunto" name="asunto" placeholder="motivo del mensaje" required>   
+                
+                <label class="label" for="textarea">Mensaje</label>
+                <textarea class="textarea" name="mensaje" id="mensaje" cols="30" rows="10" style="resize: none;" placeholder="Ingrese el motivo del mensaje" required></textarea>
+
+                <div class="field is-grouped mt-3">
+                    <div class="control">
+                      <button id="submit" class="button is-link" id="submit" type="submit">Submit</button>
+                    </div>
+                    <div class="control">
+                      <button class="button is-link is-light">Cancel</button>
+                    </div>
+                </div>
+
+            </div>
+        </form>
+    </div>
+</body>
+<script src="./main.js"></script>
+</html>
